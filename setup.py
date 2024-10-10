@@ -21,9 +21,9 @@ if __name__ == "__main__":
         include_package_data=True,
         install_requires=[
             "pyngrok>=5.0.0",
-            "nest_asyncio==1.4.3",
-            "uvicorn==0.13.1",
-            "jupyterlab==3.0.7",
+            "nest_asyncio>=1.4.3",
+            "uvicorn>=0.13.1",
+            "jupyterlab>=3.0.7",
         ],
         platforms=["linux", "unix"],
         python_requires=">3.5.2",
